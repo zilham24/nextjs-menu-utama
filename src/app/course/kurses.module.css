@@ -1,0 +1,194 @@
+
+body {
+  background-image: url('/backgroundpaper.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo {
+  width: 125px;
+  height: 57px;
+  top: 20px;
+  left: 50px;
+  margin-left: 90px;
+  margin-top: 8px;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+
+.nav a:hover {
+  color: #FE974E;
+}
+
+.authButtons {
+  margin-right: 220px;
+}
+
+.signInButton,
+.signUpButton {
+  background-color: transparent;
+  border: 1px solid #ff5733;
+  color: #ff5733;
+  padding: 5px 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 20px;
+  padding: 10px 25px;
+}
+
+.signUpButton:hover {
+  background: linear-gradient(90deg, #388E3C 0%, #66BB6A 100%);
+}
+
+.signUpButton {
+  background: linear-gradient(90deg, #ED5627 0%, #FE974E 100%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Additional styling for the PopularCourses section */
+.container {
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 77px;
+}
+
+.description {
+  font-size: 16px;
+  color: #f1f1f1;
+  margin: 10px auto 30px;
+  text-align: center;
+  max-width: 750px; /* Membatasi lebar teks agar memaksa teks menjadi dua baris */
+  line-height: 1.5;
+}
+
+/* Row styling */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px; /* Space between rows */
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 304px;
+  height: 428px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardHeader {
+  padding: 10px;
+  text-align: left;
+}
+
+.roleBadge {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #ED5627;
+  border: none;
+  border-radius: 20px;
+  cursor: default;
+}
+
+.cardImage {
+  width: 284px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.courseTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.checkButton {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background: linear-gradient(90deg, #ED5627 0%, #FE974E 100%);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 114px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+
+.checkButton:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}

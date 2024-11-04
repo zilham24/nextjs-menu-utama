@@ -1,0 +1,210 @@
+.container {
+  width: 100vw; /* Memenuhi lebar layar */
+  height: 100vh; /* Memenuhi tinggi layar */
+  position: relative;
+  top: -4px;
+  background-image: url('/backgroundpaper.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo {
+  width: 125px;
+  height: 57px;
+  top: 20px;
+  left: 50px;
+  margin-left: 90px;
+  margin-top: 8px;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+.nav a:hover {
+  color: #FE974E;
+}
+
+.authButtons {
+  margin-right: 220px;
+}
+
+.signInButton,
+.signUpButton {
+  background-color: transparent;
+  border: 1px solid #ff5733;
+  color: #ff5733;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.signUpButton {
+  background: linear-gradient(90deg, #ED5627 0%, #FE974E 100%);
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.signUpButton:hover {
+  background: linear-gradient(90deg, #388E3C 0%, #66BB6A 100%);
+}
+
+
+/* contact.module.css */
+
+.contactContainer {
+  width: 989px; /* Lebar sesuai pengaturan */
+  height: 650px; /* Tinggi sesuai pengaturan */
+  padding: 24px 23px 41px 23px; /* Padding sesuai pengaturan (atas, kanan, bawah, kiri) */
+  border-radius: 20px; /* Radius sesuai pengaturan */
+  margin-top: 124px; /* Menyelaraskan posisi vertikal */
+  margin-left: 184px; /* Menyelaraskan posisi horizontal */
+  gap: 15px; /* Jarak antar elemen dalam container */
+  background-color: #FFFFFF; /* Warna latar belakang putih */
+  box-shadow: 10px 4px 20px rgba(1, 1, 1, .3); /* Tambahkan shadow untuk efek depth */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contactInfo {
+  flex: 1;
+  text-align: center;
+  width: 470px;
+  height: 810px;
+}
+
+.map {
+  width: 443px; /* Lebar sesuai pengaturan */
+  height: 394px; /* Tinggi sesuai pengaturan */
+  border: none;
+  border-radius: 8px; /* Opsional jika ingin ada radius di sudut */
+  margin: center;
+  border-radius: 5px;
+} 
+
+.email, .address {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.socialIcons img {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  margin-right: 10px;
+  position: relative;
+  left: -160px; /* Geser ke kiri dengan nilai negatif */
+}
+
+.contactForm {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+}
+
+.contactForm h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+.introText {
+  margin-bottom: 15px; /* Tambahkan jarak sesuai kebutuhan */
+}
+.label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px; /* Jarak antara label dan field */
+  display: block;
+}
+
+.inputField, .textArea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Jarak antara field dengan elemen berikutnya */
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.inputField:focus, .textArea:focus {
+  border: 2px solid #d82525; /* Ubah warna border menjadi hitam */
+  outline: none; /* Hilangkan outline default */
+  
+}
+
+.textArea {
+  height: 150px;
+  resize: none; /* Menonaktifkan resize pada textarea */
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background: linear-gradient(90deg, #ED5627 0%, #FE974E 100%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background: linear-gradient(90deg, #388E3C 0%, #66BB6A 100%);
+}
+
+.contactTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  text-align: left
+}
+
+.contactDetail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Jarak antar detail kontak */
+}
+
+.icon {
+  width: 20px; /* Sesuaikan ukuran ikon */
+  height: 20px;
+  margin-right: 10px; /* Jarak antara ikon dan teks */
+}
+
+.email, .phone, .address {
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
